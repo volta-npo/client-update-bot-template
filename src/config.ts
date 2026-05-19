@@ -10,7 +10,7 @@ export const config = {
   "metric": "weeks with on-time client updates",
   "modules": [
     "Weekly update format",
-    "Risk and blocker prompts",
+    "Risk and blocker guides",
     "Owner ask tracker",
     "Mentor review notes"
   ],
@@ -40,56 +40,56 @@ export const config = {
       "label": "Weekly update format",
       "weight": 15,
       "defaultStatus": "not-started",
-      "prompt": "Implement and verify weekly update format with evidence that a Volta student pod, mentor, and owner can understand."
+      "guidance": "Implement and verify weekly update format with evidence that a Volta student pod, mentor, and owner can understand."
     },
     {
-      "id": "risk-and-blocker-prompts",
-      "label": "Risk and blocker prompts",
+      "id": "risk-and-blocker-guides",
+      "label": "Risk and blocker guides",
       "weight": 15,
       "defaultStatus": "not-started",
-      "prompt": "Implement and verify risk and blocker prompts with evidence that a Volta student pod, mentor, and owner can understand."
+      "guidance": "Implement and verify risk and blocker guides with evidence that a Volta student pod, mentor, and owner can understand."
     },
     {
       "id": "owner-ask-tracker",
       "label": "Owner ask tracker",
       "weight": 15,
       "defaultStatus": "not-started",
-      "prompt": "Implement and verify owner ask tracker with evidence that a Volta student pod, mentor, and owner can understand."
+      "guidance": "Implement and verify owner ask tracker with evidence that a Volta student pod, mentor, and owner can understand."
     },
     {
       "id": "mentor-review-notes",
       "label": "Mentor review notes",
       "weight": 15,
       "defaultStatus": "not-started",
-      "prompt": "Implement and verify mentor review notes with evidence that a Volta student pod, mentor, and owner can understand."
+      "guidance": "Implement and verify mentor review notes with evidence that a Volta student pod, mentor, and owner can understand."
     },
     {
       "id": "evidence-quality",
       "label": "Evidence quality",
       "weight": 10,
       "defaultStatus": "not-started",
-      "prompt": "Attach proof, source notes, screenshots, owner confirmation, or reviewer rationale."
+      "guidance": "Attach proof, source notes, screenshots, owner confirmation, or reviewer rationale."
     },
     {
       "id": "owner-handoff",
       "label": "Owner handoff",
       "weight": 10,
       "defaultStatus": "not-started",
-      "prompt": "Make the output understandable and maintainable by a nontechnical owner."
+      "guidance": "Make the output understandable and maintainable by a nontechnical owner."
     },
     {
       "id": "mission-alignment",
       "label": "Mission alignment",
       "weight": 10,
       "defaultStatus": "not-started",
-      "prompt": "Show how this advances digital equity, student growth, or pro bono delivery."
+      "guidance": "Show how this advances digital equity, student growth, or pro bono delivery."
     },
     {
       "id": "qa-safety",
       "label": "QA and safety",
       "weight": 10,
       "defaultStatus": "not-started",
-      "prompt": "Resolve privacy, accessibility, accuracy, and operational risks before handoff."
+      "guidance": "Resolve privacy, accessibility, accuracy, and operational risks before handoff."
     }
   ],
   "templates": {

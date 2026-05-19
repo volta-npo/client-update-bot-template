@@ -1,6 +1,6 @@
 export const v3 = {
   "productName": "Client Update Bot Template",
-  "productTier": "v3-production",
+  "productTier": "release",
   "category": "AI & Automation",
   "acceptance": [
     "no external AI by default",
@@ -14,7 +14,7 @@ export const v3 = {
     "Local autosave with no backend dependency",
     "JSON production bundle export/import",
     "CSV operational table export",
-    "Markdown production certification export",
+    "Markdown release certification export",
     "Print-ready handoff and release packet",
     "Integrity hash for release evidence"
   ],
@@ -53,7 +53,7 @@ export const v3 = {
     "Keyboard-accessible controls present",
     "Owner/mentor review gates represented",
     "Evidence required for launch-ready claims",
-    "Production certification hash generated",
+    "Release certification hash generated",
     "Update Completeness reaches production threshold",
     "On-time Cadence is documented with evidence",
     "Risk Clarity has no unresolved blocker",
