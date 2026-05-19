@@ -10,9 +10,9 @@
 ![Tests](https://img.shields.io/badge/Tests-25%20passing-111827?style=for-the-badge)
 ![License](https://img.shields.io/badge/License-MIT-f59e0b?style=for-the-badge)
 
-**AI & Automation** · **Repo 38/50** · **No backend. No login. Client data stays local.**
+**AI & Automation** · **No backend. No login. Client data stays local.**
 
-[Live app](https://volta-npo.github.io/38-client-update-bot-template/) · [Report an issue](https://github.com/volta-npo/38-client-update-bot-template/issues) · [Volta](https://voltanpo.org)
+[Live app](https://volta-npo.github.io/client-update-bot-template/) · [Report an issue](https://github.com/volta-npo/client-update-bot-template/issues) · [Volta](https://voltanpo.org)
 
 </div>
 
@@ -101,6 +101,16 @@ sequenceDiagram
 
 ---
 
+## 🟦 TypeScript-first
+
+This repository is authored in **TypeScript**. The checked-in JavaScript files are compiled artifacts so the project can run directly on GitHub Pages without a build server.
+
+- Source: `src/**/*.ts` and `test/**/*.ts`
+- Build: `npm run build`
+- Runtime artifacts: `src/**/*.js` for static hosting
+
+---
+
 ## 🚀 Features
 
 | Area | What ships in v3 |
@@ -157,8 +167,9 @@ sequenceDiagram
 ## 🛠️ Quick start
 
 ```bash
-git clone https://github.com/volta-npo/38-client-update-bot-template.git
+git clone https://github.com/volta-npo/client-update-bot-template.git
 cd 38-client-update-bot-template
+npm install
 npm test
 npm start
 ```
